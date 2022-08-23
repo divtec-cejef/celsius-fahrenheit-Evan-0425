@@ -7,7 +7,7 @@
 
 (function main() {
   'use strict'; // Demande un interprétation stricte du code
-  let cTemperature = prompt('Température en celsius');
+  let cTemperature = Number(prompt('Température en celsius'));
   let fTemperature = cTemperature * 9 / 5 +32;
   alert(cTemperature + '°C = ' + fTemperature + '°F');
 }()); // Main IIFE
